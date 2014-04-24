@@ -23,7 +23,7 @@ after_script:
   #- git add /home/travis/build/uranjeeth/PowerOne/MyBuild/log.html
   #- git commit -m 'Reports are ready'
   #- git config --global push.default matching
-  - cat /home/travis/build/uranjeeth/PowerOne/MyBuild/log.html
+  - cat /home/travis/build/uranjeeth/PowerOne/Project-1/log.html
 
 notifications:
   email:
