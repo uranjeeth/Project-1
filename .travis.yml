@@ -27,7 +27,7 @@ after_script:
 
 notifications:
   email:
-    - uranjeeth@gmail.com 
+    #- uranjeeth@gmail.com 
 env:
   matrix:
   - BROWSER=firefox
