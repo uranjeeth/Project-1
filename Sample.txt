@@ -1,0 +1,7 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Test Cases ***
+Open browser
+    [Setup]
+    Open Browser    https://www.google.co.in    ff
