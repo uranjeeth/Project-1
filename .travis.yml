@@ -18,8 +18,8 @@ script:
   - "pybot --outputdir MyBuild Sample.txt"
 
 after_script:
-  - git config --global user.email "uranjeeth@gmail.com"
-  - git config --global user.name "uranjeeth"
+  #- git config --global user.email "uranjeeth@gmail.com"
+  #- git config --global user.name "uranjeeth"
   #- git add /home/travis/build/uranjeeth/PowerOne/MyBuild/log.html
   #- git commit -m 'Reports are ready'
   #- git config --global push.default matching
