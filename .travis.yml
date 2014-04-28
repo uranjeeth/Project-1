@@ -18,16 +18,16 @@ script:
   - "pybot --outputdir MyBuild Sample.txt"
 
 after_script:
-  #- git config --global user.email "uranjeeth@gmail.com"
-  #- git config --global user.name "uranjeeth"
-  #- git add /home/travis/build/uranjeeth/PowerOne/MyBuild/log.html
+  #- git config --global user.email "ur@gmail.com"
+  #- git config --global user.name "u"
+  #- git add /home/travis/build/uranjeeth/MyBuild/log.html
   #- git commit -m 'Reports are ready'
   #- git config --global push.default matching
-  #- cat /home/travis/build/uranjeeth/PowerOne/Project-1/log.html
+  #- cat /home/travis/build/uranjeeth/Project-1/log.html
 
 notifications:
   email:
-    #- uranjeeth@gmail.com 
+    #- ur@gmail.com 
 env:
   matrix:
   - BROWSER=firefox
