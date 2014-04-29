@@ -25,6 +25,7 @@ after_script:
    - git config --global user.email "uranjeeth@gmail.com"
    - git config --global user.name "uranjeeth"
    - git commit -m 'Reports are ready'
+   - git push origin
   #- git add /home/travis/build/uranjeeth/MyBuild/log.html
   #- git commit -m 'Reports are ready'
   #- git config --global push.default matching
