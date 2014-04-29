@@ -22,9 +22,9 @@ after_script:
    - git remote
    - git status
    - git add .
+   - git config --global user.email "uranjeeth@gmail.com"
+   - git config --global user.name "uranjeeth"
    - git commit -m 'Reports are ready'
-  #- git config --global user.email "ur@gmail.com"
-  #- git config --global user.name "u"
   #- git add /home/travis/build/uranjeeth/MyBuild/log.html
   #- git commit -m 'Reports are ready'
   #- git config --global push.default matching
