@@ -21,6 +21,7 @@ after_script:
    - git fetch
    - git remote
    - git status
+   - git add MyBuild
    - push origin
   #- git config --global user.email "ur@gmail.com"
   #- git config --global user.name "u"
