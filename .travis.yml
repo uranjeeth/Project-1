@@ -18,6 +18,7 @@ script:
   - "pybot --outputdir MyBuild Sample.txt"
 
 after_script:
+   - git fetch
   #- git config --global user.email "ur@gmail.com"
   #- git config --global user.name "u"
   #- git add /home/travis/build/uranjeeth/MyBuild/log.html
